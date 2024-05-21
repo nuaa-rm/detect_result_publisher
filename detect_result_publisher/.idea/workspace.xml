@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="CMakePresetLoader">{
+  &quot;useNewFormat&quot;: true
+}</component>
+  <component name="CMakeReloadState">
+    <option name="reloaded" value="true" />
+  </component>
+  <component name="CMakeRunConfigurationManager">
+    <generated>
+      <config projectName="detect_result_publisher" targetName="detect_result_publisher__rosidl_typesupport_cpp" />
+      <config projectName="detect_result_publisher" targetName="ament_cmake_python_copy_detect_result_publisher" />
+      <config projectName="detect_result_publisher" targetName="detect_result_publisher__rosidl_typesupport_c" />
+      <config projectName="detect_result_publisher" targetName="detect_result_publisher__py" />
+      <config projectName="detect_result_publisher" targetName="detect_result_publisher__cpp" />
+      <config projectName="detect_result_publisher" targetName="detect_result_publisher__rosidl_typesupport_fastrtps_c" />
+      <config projectName="detect_result_publisher" targetName="detect_result_publisher__rosidl_typesupport_c__pyext" />
+      <config projectName="detect_result_publisher" targetName="detect_result_publisher__rosidl_typesupport_fastrtps_c__pyext" />
+      <config projectName="detect_result_publisher" targetName="detect_result_publisher" />
+      <config projectName="detect_result_publisher" targetName="detect_result_publisher__rosidl_typesupport_introspection_c__pyext" />
+      <config projectName="detect_result_publisher" targetName="detect_result_publisher__rosidl_typesupport_introspection_cpp" />
+      <config projectName="detect_result_publisher" targetName="detect_result_publisher_node" />
+      <config projectName="detect_result_publisher" targetName="detect_result_publisher__rosidl_generator_c" />
+      <config projectName="detect_result_publisher" targetName="detect_result_publisher__rosidl_typesupport_fastrtps_cpp" />
+      <config projectName="detect_result_publisher" targetName="ament_cmake_python_build_detect_result_publisher_egg" />
+      <config projectName="detect_result_publisher" targetName="detect_result_publisher__rosidl_typesupport_introspection_c" />
+      <config projectName="detect_result_publisher" targetName="detect_result_publisher__rosidl_generator_py" />
+      <config projectName="detect_result_publisher" targetName="detect_result_publisher_uninstall" />
+      <config projectName="detect_result_publisher" targetName="uninstall" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" ENABLED="true" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="725db56e-5bc0-4b50-95bc-7a41d8de8cae" name="更改" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="HighlightingSettingsPerFile">
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/include/detect_result_publisher.h" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="ProjectApplicationVersion">
+    <option name="ide" value="CLion" />
+    <option name="majorVersion" value="2024" />
+    <option name="minorVersion" value="1.1" />
+    <option name="productBranch" value="Classic" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="2fowzYZ4zi28f7jFMOT9LhoaGZP" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.RadMigrateCodeStyle": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "RunOnceActivity.readMode.enableVisualFormatting": "true",
+    "cf.first.check.clang-format": "false",
+    "cidr.known.project.marker": "true",
+    "ctest.advertisement.all.test.configuration.is.created": "true",
+    "last_opened_file_path": "/home/zhu/rm2024/armor_tracker_imitater/src/detect_result_publisher",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/include" />
+    </key>
+  </component>
+  <component name="RunManager" selected="CMake 应用程序.detect_result_publisher_node">
+    <configuration name="ament_cmake_python_build_detect_result_publisher_egg" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="detect_result_publisher" TARGET_NAME="ament_cmake_python_build_detect_result_publisher_egg" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ament_cmake_python_copy_detect_result_publisher" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="detect_result_publisher" TARGET_NAME="ament_cmake_python_copy_detect_result_publisher" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="detect_result_publisher" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="detect_result_publisher" TARGET_NAME="detect_result_publisher" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="detect_result_publisher__cpp" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="detect_result_publisher" TARGET_NAME="detect_result_publisher__cpp" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="detect_result_publisher__py" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="detect_result_publisher" TARGET_NAME="detect_result_publisher__py" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="detect_result_publisher__rosidl_generator_c" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="detect_result_publisher" TARGET_NAME="detect_result_publisher__rosidl_generator_c" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="detect_result_publisher__rosidl_generator_py" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="detect_result_publisher" TARGET_NAME="detect_result_publisher__rosidl_generator_py" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="detect_result_publisher__rosidl_typesupport_c" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="detect_result_publisher" TARGET_NAME="detect_result_publisher__rosidl_typesupport_c" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="detect_result_publisher__rosidl_typesupport_c__pyext" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="detect_result_publisher" TARGET_NAME="detect_result_publisher__rosidl_typesupport_c__pyext" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="detect_result_publisher__rosidl_typesupport_cpp" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="detect_result_publisher" TARGET_NAME="detect_result_publisher__rosidl_typesupport_cpp" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="detect_result_publisher__rosidl_typesupport_fastrtps_c" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="detect_result_publisher" TARGET_NAME="detect_result_publisher__rosidl_typesupport_fastrtps_c" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="detect_result_publisher__rosidl_typesupport_fastrtps_c__pyext" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="detect_result_publisher" TARGET_NAME="detect_result_publisher__rosidl_typesupport_fastrtps_c__pyext" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="detect_result_publisher__rosidl_typesupport_fastrtps_cpp" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="detect_result_publisher" TARGET_NAME="detect_result_publisher__rosidl_typesupport_fastrtps_cpp" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="detect_result_publisher__rosidl_typesupport_introspection_c" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="detect_result_publisher" TARGET_NAME="detect_result_publisher__rosidl_typesupport_introspection_c" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="detect_result_publisher__rosidl_typesupport_introspection_c__pyext" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="detect_result_publisher" TARGET_NAME="detect_result_publisher__rosidl_typesupport_introspection_c__pyext" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="detect_result_publisher__rosidl_typesupport_introspection_cpp" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="detect_result_publisher" TARGET_NAME="detect_result_publisher__rosidl_typesupport_introspection_cpp" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="detect_result_publisher_node" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="detect_result_publisher" TARGET_NAME="detect_result_publisher_node" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="detect_result_publisher" RUN_TARGET_NAME="detect_result_publisher_node">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="detect_result_publisher_uninstall" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="detect_result_publisher" TARGET_NAME="detect_result_publisher_uninstall" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="uninstall" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="detect_result_publisher" TARGET_NAME="uninstall" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="所有 CTest" type="CTestRunConfiguration" factoryName="CTestRun" PROGRAM_PARAMS="--extra-verbose" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" WORKING_DIR="file://$CMakeCurrentLocalGenerationDir$" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" RUN_PATH="$CTestCurrentExecutableName$" EXPLICIT_BUILD_TARGET_NAME="all" TEST_MODE="SUITE_TEST">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="BeforeTestRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="CMake 应用程序.detect_result_publisher__py" />
+      <item itemvalue="CMake 应用程序.detect_result_publisher_node" />
+      <item itemvalue="CMake 应用程序.detect_result_publisher_uninstall" />
+      <item itemvalue="CMake 应用程序.uninstall" />
+      <item itemvalue="CMake 应用程序.ament_cmake_python_build_detect_result_publisher_egg" />
+      <item itemvalue="CMake 应用程序.ament_cmake_python_copy_detect_result_publisher" />
+      <item itemvalue="CMake 应用程序.detect_result_publisher" />
+      <item itemvalue="CMake 应用程序.detect_result_publisher__rosidl_generator_c" />
+      <item itemvalue="CMake 应用程序.detect_result_publisher__cpp" />
+      <item itemvalue="CMake 应用程序.detect_result_publisher__rosidl_generator_py" />
+      <item itemvalue="CMake 应用程序.detect_result_publisher__rosidl_typesupport_c__pyext" />
+      <item itemvalue="CMake 应用程序.detect_result_publisher__rosidl_typesupport_fastrtps_c__pyext" />
+      <item itemvalue="CMake 应用程序.detect_result_publisher__rosidl_typesupport_introspection_c__pyext" />
+      <item itemvalue="CMake 应用程序.detect_result_publisher__rosidl_typesupport_c" />
+      <item itemvalue="CMake 应用程序.detect_result_publisher__rosidl_typesupport_cpp" />
+      <item itemvalue="CMake 应用程序.detect_result_publisher__rosidl_typesupport_fastrtps_c" />
+      <item itemvalue="CMake 应用程序.detect_result_publisher__rosidl_typesupport_fastrtps_cpp" />
+      <item itemvalue="CMake 应用程序.detect_result_publisher__rosidl_typesupport_introspection_c" />
+      <item itemvalue="CMake 应用程序.detect_result_publisher__rosidl_typesupport_introspection_cpp" />
+      <item itemvalue="CTest 应用程序.所有 CTest" />
+    </list>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="725db56e-5bc0-4b50-95bc-7a41d8de8cae" name="更改" comment="" />
+      <created>1714481001251</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1714481001251</updated>
+      <workItem from="1714481002250" duration="2831000" />
+      <workItem from="1714650835080" duration="19000" />
+      <workItem from="1715079990529" duration="3032000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VCPKGProject">
+    <isAutomaticCheckingOnLaunch value="false" />
+    <isAutomaticFoundErrors value="true" />
+    <isAutomaticReloadCMake value="true" />
+  </component>
+</project>
