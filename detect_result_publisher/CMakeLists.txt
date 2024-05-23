@@ -22,7 +22,8 @@ ament_auto_find_build_dependencies()
 
 ament_auto_add_executable(detect_result_publisher_node src/detect_result_publisher_node.cpp
         src/detect_result_publisher.cpp
-        include/detect_result_publisher.h)
+        include/detect_result_publisher.h
+)
 target_compile_features(detect_result_publisher_node PUBLIC c_std_99 cxx_std_17)  # Require C99 and C++17
 
 if(BUILD_TESTING)
