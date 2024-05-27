@@ -6,53 +6,34 @@ DetectResultPublisher::DetectResultPublisher()
     publisher_ = this->create_publisher<DetectResult>("DetectResult",10);
     publisher_2 = this->create_publisher<geometry_msgs::msg::PoseStamped>("test",1);
     timer_  =  this->create_wall_timer(
-        50ms, std::bind(&DetectResultPublisher::timer_callback, this));
-}
+        5ms, std::bind(&DetectResultPublisher::timer_callback, this));
 
-void DetectResultPublisher::timer_callback()
-{
     message.detect_success = true;
     message.id = 1;
     message.is_big = true;
     message.pose.header.frame_id="detect";
+}
+
+void DetectResultPublisher::timer_callback()
+{
+    unsigned seed = std::chrono::system_clock::now().time_since_epoch().count();
+    std::default_random_engine generator(seed);
+    std::normal_distribution<double> dist(0,0.5);
+    double a[4]={dist(generator),dist(generator),dist(generator),dist(generator)};
+
     message.pose.header.stamp = this->get_clock()->now();
 
-    loca_make(message.pose,v);
-    posture_make(message.pose,posture);
+    robo.param_fresh(a,1/fps);
+    posture_make(message.pose,robo.get_near_theta());
+    robo.get_position(message.pose);
 
     publisher_->publish(message);
     publisher_2 ->publish(message.pose);
 }
 
-void DetectResultPublisher::loca_make(geometry_msgs::msg::PoseStamped &pose,double *v)
+void DetectResultPublisher::posture_make(geometry_msgs::msg::PoseStamped &pose,angle theta)
 {
-    unsigned seed = std::chrono::system_clock::now().time_since_epoch().count();
-    std::default_random_engine generator(seed);
-    std::normal_distribution<double> dist(0,0.5);
-
-    double a[3]={dist(generator),dist(generator),dist(generator)};
-    
-    v[0]+=a[0]*T;
-    v[1]+=a[1]*T;
-    v[2]+=a[2]*T;
-
-    pose.pose.position.x+=v[0]*T;
-    pose.pose.position.y+=v[1]*T;
-    pose.pose.position.z+=v[2]*T;
-
-    if(pose.pose.position.x<-10||pose.pose.position.x>10) v[0]*=-1;
-    if(pose.pose.position.y<-10||pose.pose.position.y>10) v[1]*=-1;
-    if(pose.pose.position.z<0||pose.pose.position.z>10) v[2]*=-1;
-
-}
-void DetectResultPublisher::posture_make(geometry_msgs::msg::PoseStamped &pose,double *posture)
-{
-    unsigned seed = std::chrono::system_clock::now().time_since_epoch().count();
-    std::default_random_engine generator(seed);
-    std::normal_distribution<double> dist(0,50);
-    double a=dist(generator);
-    omiga+=a*T;
-    eulerToQuaternion(omiga*T,0,0,posture);
+    eulerToQuaternion(theta,0,0,posture);
     pose.pose.orientation.w=posture[0];
     pose.pose.orientation.x=posture[1];
     pose.pose.orientation.y=posture[2];
@@ -60,16 +41,16 @@ void DetectResultPublisher::posture_make(geometry_msgs::msg::PoseStamped &pose,d
 }
 void DetectResultPublisher::eulerToQuaternion(double roll, double pitch, double yaw,double *posture) {
     // 将角度转换为弧度
-    roll = roll * M_PI / 180.0f;
-    pitch = pitch * M_PI / 180.0f;
-    yaw = yaw * M_PI / 180.0f;
+    roll = roll * M_PI / 180.0;
+    pitch = pitch * M_PI / 180.0;
+    yaw = yaw * M_PI / 180.0;
 
-    double cX = cos(yaw * 0.5f);
-    double sX = sin(yaw * 0.5f);
-    double cY = cos(pitch * 0.5f);
-    double sY = sin(pitch * 0.5f);
-    double cZ = cos(roll * 0.5f);
-    double sZ = sin(roll * 0.5f);
+    double cX = cos(yaw * 0.5);
+    double sX = sin(yaw * 0.5);
+    double cY = cos(pitch * 0.5);
+    double sY = sin(pitch * 0.5);
+    double cZ = cos(roll * 0.5);
+    double sZ = sin(roll * 0.5);
 
     // 构造四元数
     double w = cX * cY * cZ + sX * sY * sZ;
