@@ -10,26 +10,18 @@ robot::robot(double R,double omega)
 }
 angle robot::get_near_theta()
 {
-    angle ag;
-    double m=sqrt(position[0]*position[0]+position[1]*position[1]);
-    double cos_alfa=position[0]/m;
-    double sin_alfa=position[1]/m;
-    double cos_alfa_theta=cos_alfa*cos(theta)+sin_alfa*sin(theta);
+    angle ag=theta;
+    double l[4]={0};
+    int index=0;
+    for(int i=0;i<4;i++)
+    {
+        l[i]=(position[0]+R*cos(ag))*(position[0]+R*cos(ag))+(position[1]*R*sin(ag)*(position[1]*R*sin(ag)));
+        ag+=90;
+    }
+    for(int i=1;i<4;i++)
+        if(l[index]>l[i])index=i;
 
-    if(cos_alfa_theta<=1&&cos_alfa_theta>=1/sqrt(2))
-    {
-        ag=theta+180.0;
-    }
-    else if(cos_alfa_theta>=0&&cos_alfa_theta<1/sqrt(2))
-    {
-        ag=theta-90.0;
-    }
-    else if(cos_alfa_theta>=-1&&cos_alfa_theta<-1/sqrt(2))
-    {
-        ag=theta;
-    }
-    else ag=theta+90.0;
-    return ag;
+    return theta+90.0*index;
 }
 void robot::param_fresh(double* a,double dt)
 {
